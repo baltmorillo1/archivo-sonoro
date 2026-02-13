@@ -1,0 +1,45 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Archivo Sonoro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HOME -->
+  <section id="home">
+    <h1>ARCHIVO SONORO</h1>
+    <button id="btn-ir">Discos Esenciales</button>
+  </section>
+
+  <!-- DISCOS ESENCIALES -->
+  <section id="esenciales" class="hidden">
+    <h2>Discos Esenciales</h2>
+
+    <ul>
+      <li>Pet Sounds – The Beach Boys</li>
+      <li>Unknown Pleasures – Joy Division</li>
+      <li>Kind of Blue – Miles Davis</li>
+      <li>The Low End Theory – A Tribe Called Quest</li>
+    </ul>
+
+    <button id="btn-random">Descubrir un disco esencial</button>
+  </section>
+
+  <!-- DISCO RECOMENDADO -->
+  <section id="disco" class="hidden">
+    <h2 id="titulo"></h2>
+    <p id="artista"></p>
+    <p id="anio"></p>
+
+    <button id="btn-otro">Recomendar otro</button>
+    <button id="btn-volver">Volver al inicio</button>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
