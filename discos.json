@@ -1,0 +1,29 @@
+{
+  "discos": [
+    {
+      "titulo": "Pet Sounds",
+      "artista": "The Beach Boys",
+      "anio": 1966,
+      "imagen": "img/pet-sounds.jpg"
+    },
+    {
+      "titulo": "Unknown Pleasures",
+      "artista": "Joy Division",
+      "anio": 1979,
+      "imagen": "img/unknown-pleasures.jpg"
+    },
+    {
+      "titulo": "Kind of Blue",
+      "artista": "Miles Davis",
+      "anio": 1959,
+      "imagen": "img/kind-of-blue.jpg"
+    },
+    {
+      "titulo": "The Low End Theory",
+      "artista": "A Tribe Called Quest",
+      "anio": 1991,
+      "imagen": "img/low-end-theory.jpg"
+    }
+  ]
+}
+
